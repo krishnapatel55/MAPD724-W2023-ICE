@@ -28,13 +28,13 @@ class Player : GameObject {
     }
     override func CheckBounds() {
         //constraint the player on the left boundry
-        if (position.x <= -310) {
-            position.x = -310
+        if (position.x <= -255) {
+            position.x = -255
         }
         
         //constraint the player on the right boundry
-        if (position.x >= 310) {
-            position.x = 310
+        if (position.x >= 255) {
+            position.x = 255
         }
     }
     override func Reset() {
