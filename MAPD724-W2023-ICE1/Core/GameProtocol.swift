@@ -16,6 +16,6 @@ protocol GameProtocol
     //check if the position is outside the bounds of the screen
     func CheckBounds()
     
-    //
+    //a method to reset the position
     func Reset()
 }

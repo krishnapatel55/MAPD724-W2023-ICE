@@ -46,18 +46,18 @@ class GameObject : SKSpriteNode, GameProtocol {
     
     //LifeCycle Functions
     func Start() {
-        <#code#>
+        
     }
     
     func Update() {
-        <#code#>
+        
     }
     
     func CheckBounds() {
-        <#code#>
+        
     }
     
     func Reset() {
-        <#code#>
+        
     }
 }
