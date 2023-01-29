@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6B09C9C72978BDF20035384B /* MAPD724-W2023-ICE1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD724-W2023-ICE1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B09C9C72978BDF20035384B /* MAPD724-W2023-ICE2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD724-W2023-ICE2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B09C9CA2978BDF20035384B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B09C9CC2978BDF20035384B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		6B09C9D02978BDF20035384B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		6B09C9BE2978BDF20035384B = {
 			isa = PBXGroup;
 			children = (
-				6B09C9C92978BDF20035384B /* MAPD724-W2023-ICE1 */,
+				6B09C9C92978BDF20035384B /* MAPD724-W2023-ICE2 */,
 				6B09C9C82978BDF20035384B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,12 +59,12 @@
 		6B09C9C82978BDF20035384B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B09C9C72978BDF20035384B /* MAPD724-W2023-ICE1.app */,
+				6B09C9C72978BDF20035384B /* MAPD724-W2023-ICE2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B09C9C92978BDF20035384B /* MAPD724-W2023-ICE1 */ = {
+		6B09C9C92978BDF20035384B /* MAPD724-W2023-ICE2 */ = {
 			isa = PBXGroup;
 			children = (
 				6B09C9E82978D05E0035384B /* GameObjects */,
@@ -78,7 +78,7 @@
 				6B09C9D72978BDF30035384B /* Assets.xcassets */,
 				6B09C9D92978BDF30035384B /* LaunchScreen.storyboard */,
 			);
-			path = "MAPD724-W2023-ICE1";
+			path = "MAPD724-W2023-ICE2";
 			sourceTree = "<group>";
 		};
 		6B09C9E32978C5D40035384B /* Core */ = {
@@ -102,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6B09C9C62978BDF20035384B /* MAPD724-W2023-ICE1 */ = {
+		6B09C9C62978BDF20035384B /* MAPD724-W2023-ICE2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B09C9DE2978BDF30035384B /* Build configuration list for PBXNativeTarget "MAPD724-W2023-ICE1" */;
+			buildConfigurationList = 6B09C9DE2978BDF30035384B /* Build configuration list for PBXNativeTarget "MAPD724-W2023-ICE2" */;
 			buildPhases = (
 				6B09C9C32978BDF20035384B /* Sources */,
 				6B09C9C42978BDF20035384B /* Frameworks */,
@@ -114,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = "MAPD724-W2023-ICE1";
+			name = "MAPD724-W2023-ICE2";
 			productName = "MAPD724-W2023-ICE1";
-			productReference = 6B09C9C72978BDF20035384B /* MAPD724-W2023-ICE1.app */;
+			productReference = 6B09C9C72978BDF20035384B /* MAPD724-W2023-ICE2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6B09C9C22978BDF20035384B /* Build configuration list for PBXProject "MAPD724-W2023-ICE1" */;
+			buildConfigurationList = 6B09C9C22978BDF20035384B /* Build configuration list for PBXProject "MAPD724-W2023-ICE2" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B09C9C62978BDF20035384B /* MAPD724-W2023-ICE1 */,
+				6B09C9C62978BDF20035384B /* MAPD724-W2023-ICE2 */,
 			);
 		};
 /* End PBXProject section */
@@ -377,7 +377,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6B09C9C22978BDF20035384B /* Build configuration list for PBXProject "MAPD724-W2023-ICE1" */ = {
+		6B09C9C22978BDF20035384B /* Build configuration list for PBXProject "MAPD724-W2023-ICE2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B09C9DC2978BDF30035384B /* Debug */,
@@ -386,7 +386,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B09C9DE2978BDF30035384B /* Build configuration list for PBXNativeTarget "MAPD724-W2023-ICE1" */ = {
+		6B09C9DE2978BDF30035384B /* Build configuration list for PBXNativeTarget "MAPD724-W2023-ICE2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6B09C9DF2978BDF30035384B /* Debug */,
