@@ -20,8 +20,8 @@ class Player : GameObject {
     
     //LifeCycle functions
     override func Start() {
-        zPosition = 2
-        verticleSpeed = 5.0
+        zPosition = Layer.plane.rawValue
+        Reset()
     }
     override func Update() {
         CheckBounds()

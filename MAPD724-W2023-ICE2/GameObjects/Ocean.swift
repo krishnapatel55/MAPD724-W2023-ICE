@@ -18,7 +18,7 @@ class Ocean : GameObject {
         fatalError("init(coder:) has not been implemented")
     }
     override func Start() {
-        zPosition = 0
+        zPosition = Layer.ocean.rawValue
         verticleSpeed = 5.0
     }
     override func Update() {
