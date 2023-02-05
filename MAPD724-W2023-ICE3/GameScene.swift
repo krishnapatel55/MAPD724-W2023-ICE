@@ -48,14 +48,17 @@ class GameScene: SKScene {
         //preload or prewarm impulse sounds
         do {
             let sounds: [String] = ["thunder", "yay"]
-            for sound in sounds {
-                let path: String = Bundle.main.path(forResource: sound, ofType: "mp3")!
-                let url: URL = URL(fileURLWithPath: path)
+            for sound in sounds
+            {
+                let path: String = Bundle.main.path(forResource: sound, ofType: "mp3") ?? "mp3"
+                let url:URL = URL(fileURLWithPath: path)
                 let avPlayer: AVAudioPlayer = try AVAudioPlayer(contentsOf: url)
                 avPlayer.prepareToPlay()
             }
         }
-        catch {}
+        catch {
+            
+        }
     }
     
     func touchDown(atPoint pos : CGPoint) {
