@@ -49,7 +49,7 @@ class GameScene: SKScene {
         let engineSound = SKAudioNode(fileNamed: "engine.mp3")
         addChild(engineSound)
         engineSound.autoplayLooped = true
-        //engineSound.run(SKAction.changeVolume(to: 0.5, duration: 0))
+        engineSound.run(SKAction.changeVolume(to: 0.5, duration: 0))
         
         //preload or prewarm impulse sounds
         do {
@@ -60,7 +60,7 @@ class GameScene: SKScene {
                 let url:URL = URL(fileURLWithPath: path)
                 let avPlayer: AVAudioPlayer = try AVAudioPlayer(contentsOf: url)
                 avPlayer.prepareToPlay()
-                //avPlayer.setVolume(0.5, fadeDuration: 0)
+                avPlayer.setVolume(0.5, fadeDuration: 0)
             }
         }
         catch {
