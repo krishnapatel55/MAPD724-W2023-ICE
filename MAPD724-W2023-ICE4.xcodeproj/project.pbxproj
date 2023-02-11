@@ -78,6 +78,8 @@
 		6B09C9E72978CD940035384B /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09C9E62978CD940035384B /* GameProtocol.swift */; };
 		6B09C9EA2978D0790035384B /* Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B09C9E92978D0790035384B /* Ocean.swift */; };
 		6B6D09BE297CF4A500C97345 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6D09BD297CF4A500C97345 /* Player.swift */; };
+		6BA971FF29985354003DC602 /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6BA971FE29985354003DC602 /* StartScene.sks */; };
+		6BA972012998540F003DC602 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA972002998540F003DC602 /* StartScene.swift */; };
 		6BBB18F529871A9600DBDD08 /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB18F429871A9600DBDD08 /* Island.swift */; };
 		6BBB18F729871BE900DBDD08 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB18F629871BE900DBDD08 /* Layer.swift */; };
 		6BBB18F92987216F00DBDD08 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB18F82987216F00DBDD08 /* Cloud.swift */; };
@@ -156,6 +158,9 @@
 		6B09C9E62978CD940035384B /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
 		6B09C9E92978D0790035384B /* Ocean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
 		6B6D09BD297CF4A500C97345 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		6BA971FE29985354003DC602 /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
+		6BA972002998540F003DC602 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		6BA9720229985B34003DC602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6BBB18F429871A9600DBDD08 /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
 		6BBB18F629871BE900DBDD08 /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
 		6BBB18F82987216F00DBDD08 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
@@ -298,13 +303,13 @@
 		6B09C9C92978BDF20035384B /* MAPD724-W2023-ICE4 */ = {
 			isa = PBXGroup;
 			children = (
+				6BA9720229985B34003DC602 /* Info.plist */,
+				6BA971FD299852DB003DC602 /* Scenes */,
 				6B07FEA629906F8400B2E60C /* Assets */,
 				6B07FE23298F21EC00B2E60C /* Managers */,
 				6B09C9E82978D05E0035384B /* GameObjects */,
 				6B09C9E32978C5D40035384B /* Core */,
 				6B09C9CA2978BDF20035384B /* AppDelegate.swift */,
-				6B09C9CC2978BDF20035384B /* GameScene.sks */,
-				6B09C9D02978BDF20035384B /* GameScene.swift */,
 				6B09C9D22978BDF20035384B /* GameViewController.swift */,
 				6B09C9D42978BDF20035384B /* Main.storyboard */,
 				6B09C9D72978BDF30035384B /* Assets.xcassets */,
@@ -332,6 +337,17 @@
 				6BBB18F82987216F00DBDD08 /* Cloud.swift */,
 			);
 			path = GameObjects;
+			sourceTree = "<group>";
+		};
+		6BA971FD299852DB003DC602 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6B09C9CC2978BDF20035384B /* GameScene.sks */,
+				6B09C9D02978BDF20035384B /* GameScene.swift */,
+				6BA971FE29985354003DC602 /* StartScene.sks */,
+				6BA972002998540F003DC602 /* StartScene.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,6 +408,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BA971FF29985354003DC602 /* StartScene.sks in Resources */,
 				6B07FF1629906F8400B2E60C /* bullet.mp3 in Resources */,
 				6B07FF0C29906F8400B2E60C /* explosion6.png in Resources */,
 				6B07FF0429906F8400B2E60C /* enemy1.png in Resources */,
@@ -472,6 +489,7 @@
 				6B09C9D12978BDF20035384B /* GameScene.swift in Sources */,
 				6B09C9D32978BDF20035384B /* GameViewController.swift in Sources */,
 				6BBB18F92987216F00DBDD08 /* Cloud.swift in Sources */,
+				6BA972012998540F003DC602 /* StartScene.swift in Sources */,
 				6B6D09BE297CF4A500C97345 /* Player.swift in Sources */,
 				6BBB18F729871BE900DBDD08 /* Layer.swift in Sources */,
 				6B09C9EA2978D0790035384B /* Ocean.swift in Sources */,
@@ -624,12 +642,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7RX2WS3BM6;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MAPD724-W2023-ICE4/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mail Pilot";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -637,6 +657,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.MAPD724-W2023-ICE1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -652,12 +675,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7RX2WS3BM6;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MAPD724-W2023-ICE4/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mail Pilot";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -665,6 +690,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.centennialcollege.MAPD724-W2023-ICE1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
