@@ -80,6 +80,8 @@
 		6B6D09BE297CF4A500C97345 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6D09BD297CF4A500C97345 /* Player.swift */; };
 		6BA971FF29985354003DC602 /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6BA971FE29985354003DC602 /* StartScene.sks */; };
 		6BA972012998540F003DC602 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA972002998540F003DC602 /* StartScene.swift */; };
+		6BA97204299862A9003DC602 /* EndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA97203299862A9003DC602 /* EndScene.swift */; };
+		6BA97206299862C9003DC602 /* EndScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6BA97205299862C9003DC602 /* EndScene.sks */; };
 		6BBB18F529871A9600DBDD08 /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB18F429871A9600DBDD08 /* Island.swift */; };
 		6BBB18F729871BE900DBDD08 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB18F629871BE900DBDD08 /* Layer.swift */; };
 		6BBB18F92987216F00DBDD08 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBB18F82987216F00DBDD08 /* Cloud.swift */; };
@@ -161,6 +163,8 @@
 		6BA971FE29985354003DC602 /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
 		6BA972002998540F003DC602 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
 		6BA9720229985B34003DC602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6BA97203299862A9003DC602 /* EndScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScene.swift; sourceTree = "<group>"; };
+		6BA97205299862C9003DC602 /* EndScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndScene.sks; sourceTree = "<group>"; };
 		6BBB18F429871A9600DBDD08 /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
 		6BBB18F629871BE900DBDD08 /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
 		6BBB18F82987216F00DBDD08 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
@@ -346,6 +350,8 @@
 				6B09C9D02978BDF20035384B /* GameScene.swift */,
 				6BA971FE29985354003DC602 /* StartScene.sks */,
 				6BA972002998540F003DC602 /* StartScene.swift */,
+				6BA97203299862A9003DC602 /* EndScene.swift */,
+				6BA97205299862C9003DC602 /* EndScene.sks */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -424,6 +430,7 @@
 				6B07FF1B29906F8400B2E60C /* MailPilotDemoProject.tps in Resources */,
 				6B07FEEF29906F8400B2E60C /* ocean.gif in Resources */,
 				6B07FF0629906F8400B2E60C /* enemy3.png in Resources */,
+				6BA97206299862C9003DC602 /* EndScene.sks in Resources */,
 				6B07FF0229906F8400B2E60C /* nextButton.png in Resources */,
 				6B07FEE929906F8400B2E60C /* backButton.png in Resources */,
 				6B07FEF529906F8400B2E60C /* smallexplosion4.png in Resources */,
@@ -489,6 +496,7 @@
 				6B09C9D12978BDF20035384B /* GameScene.swift in Sources */,
 				6B09C9D32978BDF20035384B /* GameViewController.swift in Sources */,
 				6BBB18F92987216F00DBDD08 /* Cloud.swift in Sources */,
+				6BA97204299862A9003DC602 /* EndScene.swift in Sources */,
 				6BA972012998540F003DC602 /* StartScene.swift in Sources */,
 				6B6D09BE297CF4A500C97345 /* Player.swift in Sources */,
 				6BBB18F729871BE900DBDD08 /* Layer.swift in Sources */,
